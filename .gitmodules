@@ -1,0 +1,3 @@
+[submodule "meta-wayland"]
+	path = meta-wayland
+	url = https://codeberg.org/flk/meta-wayland

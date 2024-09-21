@@ -3,6 +3,10 @@
 /*.patch
 /.repo/
 /build*/
+build/*
+!build/conf/
+!build/conf/bblayers.conf
+!build/conf/local.conf
 pyshtables.py
 pstage/
 scripts/oe-git-proxy-socks
@@ -20,6 +24,8 @@ hob-image-*.bb
 !meta-yocto
 !meta-yocto-bsp
 !meta-yocto-imported
+!meta-openembedded/meta-oe
+!meta-wayland
 /documentation/*/eclipse/
 /documentation/*/*.html
 /documentation/*/*.pdf
@@ -37,3 +43,5 @@ downloads/
 sstate-cache/
 toaster.sqlite
 .vscode/
+*.log
+*.bak
